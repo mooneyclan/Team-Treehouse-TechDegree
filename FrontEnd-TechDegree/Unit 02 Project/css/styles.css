@@ -31,8 +31,21 @@ h1, h2, h3 {
   padding-bottom: 20px;
 }
 
+h3 {
+  padding: 50px 0;
+}
+
+h2 {
+  font-weight: normal;
+  padding: 25px 0;
+}
+
 p {
   margin: 10px 0;
+}
+
+img {
+  width: 100%;
 }
 
 header img {
@@ -49,7 +62,7 @@ header img {
 /* Header */
 
 header {
-  background-color: #F5F5F5;
+  background-color: #F8F8F8;
 }
 
 .head-container {
@@ -63,3 +76,56 @@ header p, header h1 {
   margin: 0;
 }
 
+#portfolio {
+  text-align: center;
+}
+
+/* Section */
+
+section {
+  text-align: center;
+}
+
+.sub-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sub-container p {
+  padding-bottom: 25px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.foot-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer span {
+  font-weight: 700;
+}
+
+.foot-div a {
+  font-size: 12px;
+  padding: 25px 0;
+}
+
+.foot-div h3 {
+  padding: 25px 0;
+  font-size: 16px;
+}
+
+.btm-padding {
+  padding-bottom: 50px;
+}
+
+.foot-div {
+  display: flex;
+  justify-content: space-between;
+}
