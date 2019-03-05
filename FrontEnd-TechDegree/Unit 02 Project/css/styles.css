@@ -129,3 +129,76 @@ footer span {
   display: flex;
   justify-content: space-between;
 }
+
+.links {
+  display: none;
+}
+
+/* Media Query 768+ px */
+@media screen and (min-width: 768px) { 
+  .main-container {
+    max-width: 768px;
+  }
+
+  /* Header */
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    background-color: #f8f8f8;
+    margin: 0 30px;
+  }
+
+  .profile {
+    display: flex;
+  }
+
+  .profile img {
+    order: 1;
+    width: 40%;
+  }
+
+  .profile p {
+    font-size: 1.35rem;
+    margin: 0 10px;
+  }
+
+  /* Section */
+  .section-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sub-container {
+    width: 45%;
+  }
+
+  /* Footer */
+  .mobile-link {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .links a {
+    margin: 0 20px;
+  }
+
+  .links a.right-end {
+    margin: 0 0 0 20px;
+  }
+}
+
+/* Media Query 1024+ px */
+
+@media screen and (min-width: 1024px) { 
+
+
+
+
+
+}
