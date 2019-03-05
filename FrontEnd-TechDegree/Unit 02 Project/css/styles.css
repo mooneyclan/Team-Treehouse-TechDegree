@@ -12,6 +12,10 @@ html, body {
   line-height: 1.7em;
 }
 
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -196,9 +200,34 @@ footer span {
 /* Media Query 1024+ px */
 
 @media screen and (min-width: 1024px) { 
+  body {
+    background-color: #f8f8f8;
+  }
+  
+  .main-container {
+    max-width: 1024px;
+  }
 
+  /* Header */
+  .name-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  nav ul li {
+    padding-top: 25px;
+  }
 
+  /* Section */
+  #portfolio {
+    background-color: #fff;
+  }
 
+  .section-container {
+    background-color: #fff;
+  }
 
+  .sub-container {
+    width: 30%;
+  }
 }
