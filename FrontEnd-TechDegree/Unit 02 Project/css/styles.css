@@ -195,6 +195,11 @@ footer span {
   .links a.right-end {
     margin: 0 0 0 20px;
   }
+
+  .inner-foot-container {
+    width: 62%;
+    margin: 0 auto;
+  }
 }
 
 /* Media Query 1024+ px */
@@ -229,5 +234,10 @@ footer span {
 
   .sub-container {
     width: 30%;
+  }
+
+  /* Footer */
+  .inner-foot-container {
+    width: 48%;
   }
 }
