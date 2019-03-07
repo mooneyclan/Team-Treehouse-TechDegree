@@ -1,0 +1,67 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Main Styling */
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+.main-container {
+  max-width: 320px;
+  margin: 0 auto;
+  border: 3px solid red;
+}
+
+header, section, footer {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h1 {
+  padding: 20px 0 20px 0;
+  background-color: black;
+  color: #fff;
+}
+
+h3 {
+  padding: 20px 0;
+}
+
+section h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+section p {
+  line-height: 1em;
+  padding-bottom: 35px;
+}
+
+/* Form */
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-hr {
+  border-top: 5px solid black;
+  margin-bottom: 3px;
+}
+
+.btm-hr {
+  border-top: 2px solid black;
+}
+
+form p {
+  line-height: 1em;
+}
