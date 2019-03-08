@@ -40,7 +40,7 @@ legend {
   padding: 20px 0;
 }
 
-p {
+p, label[for="textarea"] {
   font-size: 14px;
 }
 
