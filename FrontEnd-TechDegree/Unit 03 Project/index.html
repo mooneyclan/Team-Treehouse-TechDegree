@@ -132,29 +132,34 @@
         <legend>Newsletter</legend>
 
         <p>Select the newsletters you would like to recieve</p>
-        <div>
-          <input type="checkbox" id="html" name="news" value="html" checked>
-          <label for="html">HTML News</label>
-        </div>
-        <div>
+
+        <label class="container" for="html">HTML News
+          <input type="checkbox" checked="checked" id="html" name="news" value="html">
+          <span class="checkmark-box"></span>
+        </label>
+        <label class="container" for="css">CSS News
           <input type="checkbox" id="css" name="news" value="css">
-          <label for="css">CSS News</label>
-        </div>
-        <div>
+          <span class="checkmark-box"></span>
+        </label>
+        <label class="container" for="javascript">JavaScript News
           <input type="checkbox" id="javascript" name="news" value="javascript">
-          <label for="javascript">JavaScript News</label>
-        </div>
-  
+          <span class="checkmark-box"></span>
+        </label>
+
         <p>Newsletter format</p>
-        <div>
-          <input type="radio" id="newsletterChoice1"
-            name="format" value="html" checked>
-          <label for="contactChoice1">HTML</label>
-          <br>
+
+        <label class="container" for="newsletterChoice1">HTML
+          <input type="radio" checked="checked" id="newsletterChoice1"
+          name="format" value="html">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container" for="newsletterChoice2">Plain text
           <input type="radio" id="newsletterChoice2"
-            name="format" value="plain-text">
-          <label for="contactChoice2">Plain text</label>
-        </div>
+          name="format" value="plain-text">
+          <span class="checkmark"></span>
+        </label>
+
+
   
         <p>Other topics you'd like to hear about</p>
         <textarea name="textarea"
