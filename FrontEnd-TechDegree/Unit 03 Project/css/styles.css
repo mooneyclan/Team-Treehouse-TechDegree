@@ -118,6 +118,10 @@ textarea:focus {
   background-color: #E8E8E8;
 }
 
+select {
+  height: 45px;
+}
+
 #zipcode {
   width: 50%;
 }
