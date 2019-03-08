@@ -25,7 +25,6 @@ footer {
 
 h1, 
 h2, 
-h3, 
 legend {
   font-size: 20px;
   font-weight: 700;
@@ -293,13 +292,16 @@ footer {
   input[type='text'], 
   input[type='email'], 
   input[type='tel'], 
-  select, 
-  textarea {
+  select {
     width: 65%;
   }
 
   .form-example label {
     display: inline-block;
     width: 34%;
+  }
+
+  #zipcode {
+    width: 30%;
   }
 }
