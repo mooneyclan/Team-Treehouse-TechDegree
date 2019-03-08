@@ -111,6 +111,14 @@ textarea {
   background-color: #F5F5F5;
 }
 
+input[type='text']:focus, 
+input[type='email']:focus, 
+input[type='tel']:focus, 
+select:focus, 
+textarea:focus {
+  background-color: #E8E8E8;
+}
+
 #zipcode {
   width: 50%;
 }
@@ -142,6 +150,10 @@ textarea {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.btn:hover {
+  color: #D0D0D0;
 }
 
 /* Footer */
@@ -181,13 +193,13 @@ footer {
   left: 0;
   height: 20px;
   width: 20px;
-  background-color: #eee;
+  background-color: #F5F5F5;
   border-radius: 5px;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark-box {
-  background-color: #ccc;
+  background-color: #E8E8E8;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -228,13 +240,13 @@ footer {
   left: 0;
   height: 20px;
   width: 20px;
-  background-color: #eee;
+  background-color: #F5F5F5;
   border-radius: 50%;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #E8E8E8;
 }
 
 /* When the radio button is checked, add a blue background */
@@ -266,8 +278,28 @@ footer {
 
 /* Media Query 768+ px */
 @media screen and (min-width: 768px) {
+  .main-container {
+    max-width: 768px;
+  }
 
+  section, form {
+    width: 60%;
+  }
 
+  .form-example br {
+    display: none;
+  }
 
+  input[type='text'], 
+  input[type='email'], 
+  input[type='tel'], 
+  select, 
+  textarea {
+    width: 65%;
+  }
 
+  .form-example label {
+    display: inline-block;
+    width: 34%;
+  }
 }
