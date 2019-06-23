@@ -5,9 +5,9 @@
 Description: *From mastering technical and soft skills to understanding development tools and computer science fundamentals, the Techdegree will take you from beginner to career-ready.*
 
 ### Projects
-- Personal Profile Page (https://github.com/ChristCenteredDev/Team-Treehouse-TechDegree/tree/master/FrontEnd-TechDegree/Unit%2001%20Project)
-- Mobile-first Responsive Layout (https://github.com/ChristCenteredDev/Team-Treehouse-TechDegree/tree/master/FrontEnd-TechDegree/Unit%2002%20Project)
-- Online Registration Form (https://github.com/ChristCenteredDev/Team-Treehouse-TechDegree/tree/master/FrontEnd-TechDegree/Unit%2003%20Project)
+- Personal Profile Page (https://christcentereddev.github.io/frontend-techdegree-project-01/)
+- Mobile-first Responsive Layout (https://christcentereddev.github.io/frontend-techdegree-project-02/)
+- Online Registration Form (https://christcentereddev.github.io/frontend-techdegree-project-03/)
 
 # Full Stack JavaScript Techdegree
 Description: *We’ll teach you the building blocks of HTML and CSS and dive deep into JavaScript. You’ll be ready for an entry-level job as a Full Stack JavaScript Developer in as little as 5 months.*
